@@ -1,5 +1,6 @@
 
 #include <iostream>
+#include "lib1.hpp"
 
 int main(int argc, const char ** argv)
 {
@@ -7,5 +8,7 @@ int main(int argc, const char ** argv)
     {
         std::cout << i << " : " << argv[i] << std::endl;
     }
+
+    std::cout << "sum(1, 2) = " << sum(1, 2) << std::endl;
     return 0;
 }
